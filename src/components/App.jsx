@@ -22,10 +22,10 @@ const App = () => {
 
   return (
     <div>
-      <h1>Phonebook</h1>
+      <h1>Телефонна книга</h1>
       <ContactForm contacts={contacts} addContact={addContact} />
 
-      <h2>Contacts</h2>
+      <h2>Контакти</h2>
       <Filter filter={filter} setFilter={setFilter} />
       <ContactList contacts={filteredContacts} onDeleteContact={onDeleteContact} />
     </div>
